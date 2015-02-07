@@ -45,7 +45,7 @@ To go into bootloader (aka flash) mode, simply connect PIN 21 (GPIO0) to GND.
 If you have build the project without errors you can upload the code to ESP8266 with the following command:
 
 ```shell
-sudo make flash
+sudo make ESPPORT=/dev/ttyUSB0 flash
 ```
 Now everything is complete and you are ready to test the application.
 
