@@ -53,7 +53,10 @@ Now everything is complete and you are ready to test the application.
 
 * Disconnect the power of the board
 * Remove the wire from PIN 21 (GPIO0) to exit flash mode
-* Launch a terminal on the personal computer to read data from the UART console: ```shell
+* Launch a terminal on the personal computer to read data from the UART console: 
+
+```shell
 sudo screen /dev/ttyUSB0 115200
 ```
+
 * Power again the board and you will see "Hello World" in the terminal of the personal computer
